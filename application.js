@@ -1,4 +1,13 @@
-$(‘button’).on(click, function() {
-  //unhide and remove class
-  $(‘.hidden’).removeClass('.hidden');
+jQuery(document).ready(function() {
+
+
+$('body').on('click', 'button', function() {
+  //unhide
+  $("section").removeClass("hidden");
+  //remove button???
+  $(this).remove();
+});
+
+
+
 });

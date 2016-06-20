@@ -1,7 +1,7 @@
 body {
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 	}
-	
+
 .hidden {
 	display: none;
 }
@@ -10,6 +10,22 @@ section {
 	margin: auto;
 	padding: 10px;
 	background-image: url("background.jpg");
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+    color: #3399ff;
+}
+
+a:visited {
+    color: #003399;
+}
+
+a:hover {
+		background-color: #bfbfbf;
 }
 
 @media screen and (min-width: 900px) and (min-device-width: 900px) {
