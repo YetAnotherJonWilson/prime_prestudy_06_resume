@@ -1,0 +1,49 @@
+body {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	}
+
+section {
+	margin: auto;
+	padding: 10px;
+	background-image: url("background.jpg");
+}
+
+@media screen and (min-width: 900px) and (min-device-width: 900px) {
+	section {
+	margin-right: 200px;
+	margin-left: 200px;
+	}
+}
+
+h1 {
+	font-size: 42px;
+}
+
+.contact ul {
+	list-style-type: none;
+	padding-left: 0;
+	font-style: italic;
+}
+
+p {
+	padding: 0px 45px 0px 45px;
+}
+
+header {
+	border-bottom: 2px solid black;
+}
+
+header h1 {
+    display: inline-block;
+    *display: inline;
+}
+
+header img {
+	vertical-align: bottom;
+	float: right;
+}
+
+img {
+	border: 1px solid black;
+	border-radius: 15px;
+}
