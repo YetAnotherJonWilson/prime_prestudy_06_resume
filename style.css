@@ -12,6 +12,32 @@ section {
 	background-image: url("background.jpg");
 }
 
+p {
+	padding: 0px 45px 0px 45px;
+}
+
+header {
+	border-bottom: 2px solid black;
+}
+
+header h1 {
+    display: inline-block;
+    *display: inline;
+}
+
+img {
+	vertical-align: bottom;
+	float: right;
+	border: 1px solid black;
+	border-radius: 15px;
+}
+
+.contact ul {
+	list-style-type: none;
+	padding-left: 0;
+	font-style: italic;
+}
+
 a {
 	text-decoration: none;
 }
@@ -39,31 +65,10 @@ h1 {
 	font-size: 42px;
 }
 
-.contact ul {
-	list-style-type: none;
-	padding-left: 0;
-	font-style: italic;
+.sections {
+	border-bottom: 1px solid black;
 }
 
-p {
-	padding: 0px 45px 0px 45px;
-}
-
-header {
-	border-bottom: 2px solid black;
-}
-
-header h1 {
-    display: inline-block;
-    *display: inline;
-}
-
-header img {
-	vertical-align: bottom;
-	float: right;
-}
-
-img {
-	border: 1px solid black;
-	border-radius: 15px;
+.sections:last-of-type {
+	border-bottom: none;
 }
