@@ -1,6 +1,10 @@
 body {
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 	}
+	
+.hidden {
+	display: none;
+}
 
 section {
 	margin: auto;
